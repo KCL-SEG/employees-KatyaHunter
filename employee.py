@@ -11,7 +11,7 @@ class Employee:
 		if self.name == "Charlie":
 			return self.contracted_hours(100)
 		if self.name == "Renee":
-			return 3000 + self.contracted_commission(4)
+			return 3000 + self.contract_commission(4)
 		if self.name == "Jan":
 			return self.contracted_hours(150) + self.contract_commission(3)
 		if self.name == "Robbie":
@@ -42,7 +42,7 @@ class Employee:
 		if self.name == "Jan":
 			return self.name + " works on a contract of 150 hours at 25/hour and receives a commission for 3 contract(s) at 220/contract. Their total pay is " + str(self.get_pay()) + "."
 		if self.name == "Robbie":
-			return self.name + "works on a monthly salary of 2000 and receives a bonus commission of 1500. Their total pay is " + str(slef.get_pay()) + "."
+			return self.name + "works on a monthly salary of 2000 and receives a bonus commission of 1500. Their total pay is " + str(self.get_pay()) + "."
 		if self.name == "Ariel":
 			return self.name + " works on a contract of 120 hours at 30/hour and receives a bonus commission of 600. Their total pay is " + str(self.get_pay()) + "."
 

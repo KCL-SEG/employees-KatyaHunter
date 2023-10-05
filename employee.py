@@ -36,7 +36,7 @@ class Employee:
 		if self.name == "Billie":
 			return self.name + " works on a monthly salary of " + str(self.get_pay()) + ". Their total pay is " + str(self.get_pay()) + "."
 		if self.name == "Charlie":
-			return self.name + "works on a contract of 100 hours at 25/hour. Their total pay is str(self.get_pay()) + "."
+			return self.name + "works on a contract of 100 hours at 25/hour. Their total pay is " +  str(self.get_pay()) + "."
 		if self.name == "Renee":
 			return self.name + " works on a monthly salary of 3000 and receives a commission for 4 contract(s) at 220/contract. Their total pay is " + str(self.get_pay()) + "."
 		if self.name == "Jan":
